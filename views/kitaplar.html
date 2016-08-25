@@ -1,0 +1,37 @@
+{% set selected = "kitaplar" %}
+
+{% extends "../index.html" %}
+
+{% block page %}
+
+<h3>Node.js kitapları</h3>
+
+<p>Kitap eklemek için lütfen GitHub deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a></p>
+
+<style>
+.clearfix {
+  overflow: auto;
+}
+div.book {
+  float: left;
+  padding: 10px;
+}
+div.book img {
+  max-height: 180px;
+}
+</style>
+
+<h4>Türkçe kitaplar</h4>
+
+{% for book in books.tr -%}
+<div class="book">
+  <a target="_blank" href="{{ book.url }}"><img src="{{ book.image_sm }}"></a><br />
+  <a target="_blank" href="{{ book.url }}">{{ book.title }}</a><br />
+  {{ book.author }}<br />
+  {{ book.publisher }}
+</div>
+{%- endfor %}
+
+<div class="clearfix"></div>
+
+{% endblock %}

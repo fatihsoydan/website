@@ -1,0 +1,42 @@
+{% extends "../index.html" %}
+
+{% block page %}
+
+<h3>Node.js iş ilanları</h3>
+
+<p>Aşağıdaki ilan belli başı sitelerde yayınlanan ve içinde `node.js` kelimesi geçen ilanları içermektedir.</p>
+<p>İlan eklemek için lütfen GitHub deposuna Pull Request yapın ya da <a href="mailto:ilan@node.ist">ilan@node.ist</a> adresine e-posta gönderin.</a>
+
+<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th>İlan tarihi</th>
+      <th class="mdl-data-table__cell--non-numeric">Pozisyon</th>
+      <th class="mdl-data-table__cell--non-numeric">Firma</th>
+    </tr>
+  </thead>
+  <tbody id="listBody">
+    {% for job in jobs -%}
+    <tr>
+      <td>{{job.date}}</td>
+      <td class="mdl-data-table__cell--non-numeric">
+        <a target="_blank" href="{{job.url}}">{{job.title}}</a>
+        {% if job.extras and job.extras.length %}
+          ({% for extra in job.extras -%}
+            <a target="_blank" href="{{extra.url}}">{{extra.title}}</a>
+          {%- endfor %})
+        {% endif %}
+      </td>
+      <td class="mdl-data-table__cell--non-numeric">
+        {% if job.employerurl %}
+        <a target="_blank" href="{{job.employerurl}}">{{job.employer}}</a>
+        {% else %}
+        {{job.employer}}
+        {% endif %}
+      </td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

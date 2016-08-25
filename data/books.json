@@ -1,0 +1,26 @@
+{
+  "tr": [
+    {
+      "url": "http://www.kodlab.com/BookDetail.aspx?ID=125245",
+      "image_sm": "http://www.kodlab.com/warehouse/product/flat/M/125244.jpg",
+      "image_lg": "http://www.kodlab.com/warehouse/product/flat/L/125244.jpg",
+      "title": "OKU, İZLE, DİNLE, ÖĞREN! nodejs",
+      "author": "Mehmet Canker",
+      "publisher": "KODLAB",
+      "published": "2016-03-07",
+      "ISBN": ": 978-605-9118-613"
+    },
+    {
+      "url": "https://www.dikeyeksen.com/products/node-js",
+      "image_sm": "https://cdn.shopify.com/s/files/1/0158/0204/products/nodejs_on_kapak_v1_grande.jpg?v=1467105274",
+      "image_lg": "https://cdn.shopify.com/s/files/1/0158/0204/products/nodejs_on_kapak_v1_1024x1024.jpg?v=1467105274",
+      "title": "nodejs",
+      "author": "Dr. Özcan Kasal",
+      "publisher": "dikeyeksen",
+      "published": "2016",
+      "ISBN": ": 978-605-4898-213"
+    }
+  ],
+  "en": [
+  ]
+}

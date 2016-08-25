@@ -13,14 +13,16 @@ nunjucks.configure(path.join(__dirname, '.'), {
 })
 
 app.use(express.static('./public'))
+app.use('/bower', express.static('./bower_components'))
 
-app.get('/', (req, res) => {
-  return res.render('index.html')
-})
+app.get('/', (req, res) => res.render('views/nodetr.html', {page:'nodetr'}))
+app.get('/ilanlar', (req, res) => res.render('views/ilanlar.html', {page:"ilanlar", jobs: require('./data/jobs.json')}))
+app.get('/kitaplar', (req, res) => res.render('views/kitaplar.html', {page:"kitaplar", books: require('./data/books.json')}))
+app.get('/kullanan-sirketler', (req, res) => res.render('views/usedby.html', {page:'usedby'}))
 
 // Server
 const server = http.createServer(app)
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8085
 
 server.listen(port, () => {
   console.log(`Listening on ${port}.`)
