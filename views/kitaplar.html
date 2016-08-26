@@ -6,10 +6,10 @@
 
 <h3>Node.js kitapları</h3>
 
-<p>Kitap eklemek için lütfen <a target="_blank" href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a></p>
-
 <style>
 .clearfix {
+  clear: both;
+  display: block;
   overflow: auto;
 }
 div.book {
@@ -17,7 +17,7 @@ div.book {
   padding: 10px;
 }
 div.book img {
-  max-height: 180px;
+  max-height: 150px;
 }
 </style>
 
@@ -25,13 +25,26 @@ div.book img {
 
 {% for book in books.tr -%}
 <div class="book">
-  <a target="_blank" href="{{ book.url }}"><img src="{{ book.image_sm }}"></a><br />
-  <a target="_blank" href="{{ book.url }}">{{ book.title }}</a><br />
-  {{ book.author }}<br />
-  {{ book.publisher }}
+  <a target="_blank" href="{{ book.url }}">
+    <img alt="{{ book.title }}" title="{{ book.title }}" src="{{ book.thumb }}">
+  </a>
 </div>
 {%- endfor %}
 
 <div class="clearfix"></div>
+
+<h4>İngilizce Kitaplar</h4>
+
+{% for a,b in books.en_cat %}
+  <h5>{{a}}</h5>
+  {% for book in b %}
+    <div class="book">
+      <a target="_blank" href="{{ book.url }}">
+        <img alt="{{ book.title }}" title="{{ book.title }}" src="{{ book.thumb }}">
+      </a>
+    </div>
+  {% endfor %}
+  <div class="clearfix"></div>
+{% endfor %}
 
 {% endblock %}

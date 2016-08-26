@@ -1,26 +1,322 @@
 {
   "tr": [
     {
-      "url": "http://www.kodlab.com/BookDetail.aspx?ID=125245",
-      "image_sm": "http://www.kodlab.com/warehouse/product/flat/M/125244.jpg",
-      "image_lg": "http://www.kodlab.com/warehouse/product/flat/L/125244.jpg",
       "title": "OKU, İZLE, DİNLE, ÖĞREN! nodejs",
-      "author": "Mehmet Canker",
-      "publisher": "KODLAB",
-      "published": "2016-03-07",
-      "ISBN": ": 978-605-9118-613"
+      "ISBN": 9786059118613,
+      "thumb": "http://www.kodlab.com/warehouse/product/flat/M/125244.jpg",
+      "url": "http://www.kodlab.com/BookDetail.aspx?ID=125245"
     },
     {
-      "url": "https://www.dikeyeksen.com/products/node-js",
-      "image_sm": "https://cdn.shopify.com/s/files/1/0158/0204/products/nodejs_on_kapak_v1_grande.jpg?v=1467105274",
-      "image_lg": "https://cdn.shopify.com/s/files/1/0158/0204/products/nodejs_on_kapak_v1_1024x1024.jpg?v=1467105274",
       "title": "nodejs",
-      "author": "Dr. Özcan Kasal",
-      "publisher": "dikeyeksen",
-      "published": "2016",
-      "ISBN": ": 978-605-4898-213"
+      "ISBN": 9786054898213,
+      "thumb": "https://cdn.shopify.com/s/files/1/0158/0204/products/nodejs_on_kapak_v1_grande.jpg?v=1467105274",
+      "url": "https://www.dikeyeksen.com/products/node-js"
     }
   ],
-  "en": [
-  ]
+  "en_cat": {
+    "Apress": [
+      {
+        "title": "Beginning Amazon Web Services with Node.js",
+        "ISBN": 9781484206539,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/23a95f2a-abc9-44f0-a190-e5499fd6cc2d/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/beginning-amazon-web-services-with-node-js"
+      },
+      {
+        "title": "Beginning Node.js",
+        "ISBN": 9781484201879,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/53eb62ca-3942-4b3f-a992-3ed1a13c3cc6/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/beginning-node-js"
+      },
+      {
+        "title": "Node.js Recipes",
+        "ISBN": 9781430260592,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/51130b98-ef96-44fa-8790-5b711c4bf8c3/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-recipes"
+      },
+      {
+        "title": "Practical Node.js",
+        "ISBN": 9781430265962,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/90c3ee77-ae33-4026-8a2a-44d23fae6019/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/practical-node-js"
+      },
+      {
+        "title": "Pro Node.js for Developers",
+        "ISBN": 9781430258612,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/e4dd27fb-2ac4-4a9c-a2a7-4b213bb010d1/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/pro-node-js-for-developers"
+      },
+      {
+        "title": "Pro REST API Development with Node.js",
+        "ISBN": 9781484209172,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/c67466c3-28c7-47ea-a94b-dcd0f97aadd9/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/pro-rest-api-development-with-node-js"
+      }
+    ],
+    "O'Reilly Media": [
+      {
+        "title": "Building Hypermedia APIs with HTML5 and Node",
+        "ISBN": 9781449324568,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/39960fab-88e6-47ad-8a1a-f4f149684675/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/building-hypermedia-apis-with-html5-and-node"
+      },
+      {
+        "title": "Building Node Applications with MongoDB and Backbone",
+        "ISBN": 9781449337766,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/c9f1a1dd-a26e-4766-b809-d57f9f9eee7d/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/building-node-applications-with-mongodb-and-backbone"
+      },
+      {
+        "title": "Getting Started with GEO, CouchDB, and Node.js",
+        "ISBN": 9781449315450,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/d929eeba-569d-4921-b2ef-6ace9340ade6/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/getting-started-with-geo-couchdb-and-node-js"
+      },
+      {
+        "title": "Learning Node",
+        "ISBN": 9781449326159,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/83a3af6f-f789-43d7-9f34-c2f97d997d15/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/learning-node"
+      },
+      {
+        "title": "Learning Node (2nd edition)",
+        "ISBN": 9781491943076,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/6502dea5-69e2-4537-b2c5-028f1d10a435/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/learning-node-1"
+      },
+      {
+        "title": "Node for Front-End Developers",
+        "ISBN": 9781449329044,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/5aa1687b-b451-48c4-87b6-8cac2093c3ab/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-for-front-end-developers"
+      },
+      {
+        "title": "Node.js for PHP Developers",
+        "ISBN": 9781449333805,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/5fbcd07f-ca93-4d34-a2a7-3104a085b3e3/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-for-php-developers"
+      },
+      {
+        "title": "Node: Up and Running",
+        "ISBN": 9781449336950,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/d3d8a122-f76f-458c-b07e-3dc7dfea6bef/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-up-and-running"
+      },
+      {
+        "title": "Web Development with Node and Express",
+        "ISBN": 9781491902295,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/fbeb6f57-44e7-4adc-9ba3-69c3d730cb7e/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/web-development-with-node-and-express"
+      }
+    ],
+    "Packt Publishing": [
+      {
+        "title": "Building Scalable Apps with Redis and Node.js",
+        "ISBN": 9781783984497,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/11033a2e-32ce-4b72-ab7e-293ec0881e22/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/building-scalable-apps-with-redis-and-node-js"
+      },
+      {
+        "title": "CoffeeScript Programming with jQuery, Rails, and Node.js",
+        "ISBN": 9781849519595,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/54e9f649-5b84-4883-ad6d-0a5ba6cdeec4/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/coffeescript-programming-with-jquery-rails-and-node-js"
+      },
+      {
+        "title": "Deploying Node.js",
+        "ISBN": 9781783981410,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/c3e6536e-b70b-455d-a4bc-c185efb837fc/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/deploying-node-js"
+      },
+      {
+        "title": "Developing Microservices with Node.js",
+        "ISBN": 9781785883194,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/73b65429-c37c-40e5-93a6-69cd6d66ee05/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/developing-microservices-with-node-js"
+      },
+      {
+        "title": "Instant Node Package Manager",
+        "ISBN": 9781783283347,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/37615584-aa3e-42a7-a581-6f3d53c5fae7/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/instant-node-package-manager"
+      },
+      {
+        "title": "Instant Node.js Starter",
+        "ISBN": 9781782165576,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/9f5b86ca-9edc-4e22-aaf9-bf547b1d7a83/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/instant-node-js-starter"
+      },
+      {
+        "title": "Learning Node.js for .NET Developers",
+        "ISBN": 9781785287510,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/7856fbae-e3aa-4781-87fb-7e0369289c34/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/learning-node-js-for-net-developers"
+      },
+      {
+        "title": "Learning Node.js for Mobile Application Development",
+        "ISBN": 9781782175049,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/43ab0a38-d33f-49c6-8cc2-42c78f4575a9/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/learning-node-js-for-mobile-application-development"
+      },
+      {
+        "title": "Mastering Node.js",
+        "ISBN": 9781782166337,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/8d85add9-523a-4e31-8b9d-064b32726169/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/mastering-node-js"
+      },
+      {
+        "title": "Node Cookbook",
+        "ISBN": 9781849517195,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/b8215570-eabb-4385-af4d-0a6ddf4742c3/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-cookbook"
+      },
+      {
+        "title": "Node Cookbook: Second Edition",
+        "ISBN": 9781783280445,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/e7901e27-6720-4c75-90aa-9f475cfad26f/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-cookbook-second-edition"
+      },
+      {
+        "title": "Node Security",
+        "ISBN": 9781783281503,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/37732b44-3e1f-41d8-90e5-b5ace8a0ed1e/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-security"
+      },
+      {
+        "title": "Node Web Development",
+        "ISBN": 9781849515153,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/aa1d3dee-0d64-4856-94ef-6a6a88a299c0/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-web-development"
+      },
+      {
+        "title": "Node Web Development, Second Edition",
+        "ISBN": 9781782163312,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/938b4200-4528-44d3-b48e-a5a561088fa2/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-web-development-second-edition"
+      },
+      {
+        "title": "Node.js Web Development - Third Edition",
+        "ISBN": 9781785885419,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/fdb4bb09-7936-40f5-99e0-472b540b47aa/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-web-development-third-edition"
+      },
+      {
+        "title": "Node.js Blueprints",
+        "ISBN": 9781783287345,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/ba547efb-28fc-4314-9f2b-c8a9fe8d9e01/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-blueprints"
+      },
+      {
+        "title": "Node.js Design Patterns",
+        "ISBN": 9781783287321,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/971d7d16-ffd3-48dd-ac29-370cb046ee36/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-design-patterns-1"
+      },
+      {
+        "title": "Node.js Design Patterns - Second Edition",
+        "ISBN": 9781785887383,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/bdc31841-2f35-478d-8a64-345e4979ec8c/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-design-patterns-second-edition"
+      },
+      {
+        "title": "Node.js By Example",
+        "ISBN": 9781784399603,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/57245e1c-47a7-40a4-b89c-702555c0f0b8/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-by-example"
+      },
+      {
+        "title": "Node.js Essentials",
+        "ISBN": 9781783287345,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/ba547efb-28fc-4314-9f2b-c8a9fe8d9e01/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-blueprints"
+      },
+      {
+        "title": "Node.js High Performance",
+        "ISBN": 9781785280627,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/4d636d03-7362-49d6-bf49-dc354673c91d/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-high-performance"
+      },
+      {
+        "title": "RESTful Web API Design with Node.js",
+        "ISBN": 9781783985876,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/3ba3f351-ea44-470d-9241-6b51feb8e674/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/restful-web-api-design-with-node-js"
+      },
+      {
+        "title": "RESTful Web API Design with Node.js - Second Edition",
+        "ISBN": 9781786463203,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/8ad74b1b-2756-40f5-ad6d-b96822a3cd21/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/restful-web-api-design-with-node-js-second-edition"
+      },
+      {
+        "title": "Using Node.js for UI Testing",
+        "ISBN": 9781782160533,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/40f59877-7984-45f5-b48c-c417fa43cb60/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/using-node-js-for-ui-testing"
+      },
+      {
+        "title": "Web Development with MongoDB and NodeJS - Second Edition",
+        "ISBN": 9781785287459,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/68acc6f6-c240-43af-9227-6230473e6732/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/web-development-with-mongodb-and-nodejs-second-edition"
+      }
+    ],
+    "Pearson Education": [
+      {
+        "title": "Learning Node.js",
+        "ISBN": 9780133377989,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/9898424b-6757-43e1-a15a-d615a0cfa36d/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/learning-node-js"
+      },
+      {
+        "title": "Node.js for .NET Developers",
+        "ISBN": 9781509300501,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/45dd08eb-d61b-49b9-a1d0-c74ca3bb5c39/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-for-net-developers-1"
+      },
+      {
+        "title": "Node.js, MongoDB, and AngularJS Web Development",
+        "ISBN": 9780133844344,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/5fe10f0d-59b8-4faa-b63d-3e7f5cb8cad7/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-mongodb-and-angularjs-web-development-1"
+      },
+      {
+        "title": "Sams Teach Yourself Node.js in 24 Hours",
+        "ISBN": 9780132966269,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/20c20a23-5b0d-4d6a-9014-c55d512c8461/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/sams-teach-yourself-node-js-in-24-hours-1"
+      }
+    ],
+    "Other": [
+      {
+        "title": "Dive into Nodejs",
+        "ISBN": 9783739653099,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/fc1c4b7c-157d-4261-978e-800c5c4cb944/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/dive-into-nodejs"
+      },
+      {
+        "title": "Jump Start Node.js",
+        "ISBN": 9781457192043,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/a49d84f9-e898-4b9d-af74-9e32b693bf62/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/jump-start-node-js-1"
+      },
+      {
+        "title": "Learn Meteor - Node.js and MongoDB JavaScript platform",
+        "ISBN": 9781536558616,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/05042087-52d3-4fec-a73b-c7f8466e707f/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/learn-meteor-node-js-and-mongodb-javascript-platform"
+      },
+      {
+        "title": "Node.js 104 Success Secrets - 104 Most Asked Questions On Node.js - What You Need to Know",
+        "ISBN": 9781488533136,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/0f8b7574-acaf-44e0-aa59-11dde51dd375/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/node-js-104-success-secrets-104-most-asked-questions-on-node-js-what-you-need-to-know"
+      },
+      {
+        "title": "Professional Node.js",
+        "ISBN": 9781118240564,
+        "thumb": "https://kbimages1-a.akamaihd.net/Images/e84b67ef-0740-478f-8007-64c2d6ea83a8/500/400/False/image.jpg",
+        "url": "http://www.idefix.com/ekitap/professional-node-js"
+      }
+    ]
+  }
 }
