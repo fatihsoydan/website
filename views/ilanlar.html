@@ -4,14 +4,16 @@
 
 {% block page %}
 
-<p>Aşağıdaki ilan belli başı sitelerde yayınlanan ve içinde `node.js` kelimesi geçen ilanları içermektedir.</p>
+<p>Aşağıdaki içinde `node.js` kelimesi geçen ve İstanbul'da olan iş ilanları bulunmaktadır.</p>
+<p>Bu ilanlar için başlıca kaynaklarımız: <b>Crossover, Indeed, Kariyer.net, Linkedin, Michael Page, Yenibiris</b></p>
 <p>İlan eklemek için lütfen <a target="_blank" href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a>
 
 <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
   <thead>
     <tr>
-      <th class="mdl-data-table__cell--non-numeric">Pozisyon</th>
       <th class="mdl-data-table__cell--non-numeric">Firma</th>
+      <th class="mdl-data-table__cell--non-numeric">Pozisyon</th>
+      <th class="mdl-data-table__cell--non-numeric">Link</th>
     </tr>
   </thead>
   <tbody id="listBody">
@@ -25,11 +27,17 @@
         {% endif %}
       </td>
       <td class="mdl-data-table__cell--non-numeric">
-        <a target="_blank" href="{{job.url}}">{{job.title}}</a>
-        {% if job.extras and job.extras.length %}
-          ({% for extra in job.extras -%}
-            <a target="_blank" href="{{extra.url}}">{{extra.title}}</a>
-          {%- endfor %})
+        {% if job.url %}
+          <a target="_blank" href="{{job.url}}">{{job.title}}</a>
+        {% else %}
+          {{job.title}}
+        {% endif %}
+      </td>
+      <td class="mdl-data-table__cell--non-numeric">
+        {% if job.urls %}
+          {% for source, url in job.urls -%}
+            <a target="_blank" href="{{url}}">{{source}}</a>&nbsp; 
+          {%- endfor %} 
         {% endif %}
       </td>
     </tr>

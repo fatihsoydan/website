@@ -60,6 +60,11 @@
     "employer": "Markafoni"
   },
   {
+    "url": "http://www.kariyer.net/is-ilani/markafoni-kidemli-uygulama-gelistirme-uzmani-1545565",
+    "title": "Kıdemli Uygulama Geliştirme Uzmanı",
+    "employer": "Markafoni"
+  },
+  {
     "url": "http://www.kariyer.net/is-ilani/s-yazilim-reklam-danismanlik-php-yazilim-uzmani-senior-developer-1464517",
     "title": "PHP Yazılım Uzmanı / Senior Developer",
     "employer": "S YAZILIM REKLAM DANIŞMANLIK"
@@ -112,17 +117,18 @@
   {
     "url": "http://www.kariyer.net/is-ilani/koc-university-devops-specialist-1610360",
     "title": "DevOps Specialist",
-    "employer": "Koç University" 
+    "employer": "Koç University",
+    "urls": {
+      "LinkedIn": "https://www.linkedin.com/jobs2/view/158885305"
+    }
   },
   {
-    "url": "https://www.linkedin.com/jobs/view/188805819",
     "title": "Chief Architect - Test Automation",
-    "employer": "Crossover for Work"
-  },
-  {
-    "url": "https://www.linkedin.com/comm/jobs2/view/188806771",
-    "title": "Chief Architect - Test Automation",
-    "employer": "Crossover for Work"
+    "employer": "Crossover for Work",
+    "urls": {
+      "Crossover": "https://www.crossover.com/x/redirect/job/2126",
+      "LinkedIn": "https://www.linkedin.com/comm/jobs2/view/188806771"
+    }
   },
   {
     "url": "http://www.kariyer.net/is-ilani/sistek-bilgisayar-yazilim-ve-danismanlik-a-s-yazilim-uzmani-1596327",
@@ -155,15 +161,12 @@
     "employer": "Nuevo Yazılım Çözümleri A.Ş."
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti-kidemli-php-yazilim-gelistirme-uzmani-1607925",
     "title": "KIDEMLİ PHP YAZILIM UZMANI",
     "employer": "Dsg İnsan Kaynakları ve Danışmanlık Tic.Ltd.Şti",
-    "extras": [
-      {
-        "url": "http://www.yenibiris.com/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti/kidemli-php-yazilim-uzmani-is-ilani/705380",
-        "title": "Yenibiris.com"
-      }
-    ]
+    "urls": {
+      "Kariyer.net": "http://www.kariyer.net/is-ilani/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti-kidemli-php-yazilim-gelistirme-uzmani-1607925",
+      "Yenibiris": "http://www.yenibiris.com/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti/kidemli-php-yazilim-uzmani-is-ilani/705380"
+    }
   },
   {
     "url": "https://www.linkedin.com/jobs2/view/193291051",
@@ -176,20 +179,12 @@
     "employer": "Oredata"
   },
   {
-    "url": "https://www.linkedin.com/jobs2/view/158885305",
-    "title": "DevOps Specialist",
-    "employer": "Koç University"
-  },
-  {
-    "url": "https://www.linkedin.com/jobs2/view/175436507",
     "title": "Sr. Full Stack Developer",
     "employer": "KOC UNIVERSITESI",
-    "extras": [
-      {
-        "url": "http://www.kariyer.net/is-ilani/koc-university-sr-full-stack-developer-1579812",
-        "title": "Kariyer.net"
-      }
-    ]
+    "urls": {
+      "Kariyer.net": "http://www.kariyer.net/is-ilani/koc-university-sr-full-stack-developer-1579812",
+      "LinkedIn": "https://www.linkedin.com/jobs2/view/175436507"
+    }
   },
   {
     "url": "http://www.kariyer.net/is-ilani/garanti-teknoloji-front-end-software-developer-1418252",
@@ -212,15 +207,12 @@
     "employer": "Retport"
   },
   {
-    "url": "https://www.linkedin.com/jobs2/view/176355916",
     "title": "ININ Platform Yazılım Geliştirme Uzmanı",
     "employer": "Turkcell Global Bilgi",
-    "extras": [
-      {
-        "url": "http://www.kariyer.net/is-ilani/turkcell-ve-grup-sirketleri-inin-platform-yazilim-gelistirme-uzmani-1619529",
-        "title": "Kariyer.net"
-      }
-    ]
+    "urls": {
+      "Kariyer.net": "http://www.kariyer.net/is-ilani/turkcell-ve-grup-sirketleri-inin-platform-yazilim-gelistirme-uzmani-1619529",
+      "LinkedIn": "https://www.linkedin.com/jobs2/view/176355916"
+    }
   },
   {
     "url": "https://www.linkedin.com/jobs2/view/175470590",
