@@ -3,20 +3,13 @@
 {% block title %}Node.js kullanan şirketler{% endblock %}
 {% block page %}
 
-<style>
-img.compimg {
-  width: 100px; padding: 5px 20px;
-}
-</style>
+<p>Türkiye'de ve dünyada ana yazılımlarında Node.js kullanan şirketler aşağıda belirtilmiştir.</p>
+<p>Buraya şirket eklemek için lütfen <a target="_blank" href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a></p>
 
-<a target="_blank" href="http://www.kapgel.com/"><img class="compimg" src="/images/bitaksi.png"></a>
-<a target="_blank" href="http://www.kapgel.com/"><img class="compimg" src="/images/getir.jpg"></a>
-<a target="_blank" href="http://www.kapgel.com/"><img class="compimg" src="/images/kapgel.png"></a>
-
-<hr />
-
-<p>Şirketinizi eklemek için lütfen <a target="_blank" href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a></p>
-
-<p>*Sıralama isme göre yapılmıştır.</p>
+{% for usedby in usedbys -%}
+<a target="_blank" href="{{usedby.url}}">
+  <img class="compimg" alt="{{usedby.name}}" title="{{usedby.name}}" src="{{usedby.image}}">
+</a>
+{%- endfor %}
 
 {% endblock %}

@@ -5,3 +5,8 @@
   background-color: #dedede;
   font-weight: bold;
 }
+
+/* usedby */
+img.compimg {
+  width: 100px; padding: 5px 20px;
+}

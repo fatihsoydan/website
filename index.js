@@ -23,7 +23,10 @@ app.get('/ilanlar', (req, res) => res.render('views/ilanlar.html', {
 }))
 app.get('/kitaplar', (req, res) => res.render('views/kitaplar.html', {page:"kitaplar", books: require('./data/books.json')}))
 app.get('/organizasyonlar', (req, res) => res.render('views/organizasyonlar.html', {page:"organizasyonlar"}))
-app.get('/kullanan-sirketler', (req, res) => res.render('views/usedby.html', {page:'usedby'}))
+app.get('/kullanan-sirketler', (req, res) => res.render('views/usedby.html', {
+  page:'usedby',
+  usedbys: _.orderBy(require('./data/usedby.json', ['name', 'ASC']))
+}))
 
 // Server
 const server = http.createServer(app)
