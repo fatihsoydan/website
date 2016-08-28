@@ -24,7 +24,7 @@ app.get('/kitaplar', (req, res) => res.render('views/kitaplar.html', {page:"kita
 app.get('/organizasyonlar', (req, res) => res.render('views/organizasyonlar.html', {page:"organizasyonlar"}))
 app.get('/kullanan-sirketler', (req, res) => res.render('views/usedby.html', {
   page:'usedby',
-  usedbys: _.orderBy(require('./data/usedby.json', ['name', 'ASC']))
+  usedbys: require('./data/usedby.json')
 }))
 
 // Server
