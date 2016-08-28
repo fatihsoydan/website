@@ -15,6 +15,11 @@
     "employer": "Accenture Endüstriyel Yazılım Çözümleri Ltd. Şti."
   },
   {
+    "employer": "Afro Cubanos Yazılım Geliştirme Şirketini",
+    "title": "Yazılım Uzmanı ve Tasarımcı",
+    "url": "https://www.secretcv.com/afro-cubanos-yazilim-gelistirme-sirketini/yazilim-uzmani-ve-tasarimci-is-ilanlari-778273"
+  },
+  {
     "url": "http://www.kariyer.net/is-ilani/amadeus-bilgi-teknolojisi-hizmetleri-a-s-sr-java-developer-angular-js-1628783",
     "title": "Sr. Java Developer (Angular.JS)",
     "employer": "Amadeus Bilgi Teknolojisi Hizmetleri A.Ş."
@@ -23,6 +28,21 @@
     "url": "http://www.kariyer.net/is-ilani/arabam-com-frontend-developer-1620319",
     "title": "FRONTEND DEVELOPER",
     "employer": "ARABAM.COM"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/argela-software-developer-1550786",
+    "title": "Software Developer",
+    "employer": "Argela"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/bilbest-bilisim-saglik-egitim-dis-ticaret-ve-sanay-senior-software-developer-1633152",
+    "title": "Senıor Software Developer",
+    "employer": "BİLBEST Bilişim Sağlık Eğitim Dış Ticaret ve Sanay"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/bilge-adam-bilisim-grubu-arayuz-yazilim-uzmani-1243211",
+    "title": "Arayüz Yazılım Uzmanı",
+    "employer": "Bilge Adam Bilişim Grubu"
   },
   {
     "url": "http://www.kariyer.net/is-ilani/bilyoner-interaktif-hizmetler-a-s-front-end-yazilim-gelistirme-uzmani-1613287",
@@ -40,19 +60,121 @@
     "employer": "BTOS BİLİŞİM"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/isc-international-solutions-consulting-ltd-big-data-developer-1608632",
-    "title": "BIG DATA DEVELOPER",
-    "employer": "ISC - International Solutions Consulting Ltd."
+    "employer": "chooseclick.com",
+    "title": "Yazılım Stajyeri",
+    "url": "http://www.kariyer.net/is-ilani/chooseclick-com-yazilim-stajyeri-946604"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/signum-teknoloji-tanitim-ve-egitim-lts-sti-yazilim-uzmani-1631185",
-    "title": "YAZILIM UZMANI",
-    "employer": "Signum Teknoloji Tanıtım ve Eğitim Lts. Şti"
+    "title": "Chief Architect - Test Automation",
+    "employer": "Crossover for Work",
+    "urls": {
+      "Crossover": "https://www.crossover.com/x/redirect/job/2126",
+      "LinkedIn": "https://www.linkedin.com/comm/jobs2/view/188806771"
+    }
+  },
+  {
+    "employer": "Crossover for Work",
+    "title": "Front End Web Developer",
+    "url": "https://www.crossover.com/x/redirect/job/6"
+  },
+  {
+    "employer": "Crossover for Work",
+    "title": "Full Stack Developer - $60K",
+    "url": "https://www.crossover.com/x/redirect/job/2028"
+  },
+  {
+    "employer": "Crossover for Work",
+    "title": "Senior Front End Developer",
+    "url": "https://www.crossover.com/x/redirect/job/351"
+  },
+  {
+    "employer": "Crossover for Work",
+    "title": "Ruby Software Architect",
+    "url": "https://www.crossover.com/x/redirect/job/2001"
+  },
+  {
+    "employer": "DOGUS PLANET ELEKTRONIK TICARET VE BILISIM HIZM.A",
+    "title": "Senior Front End Developer",
+    "url": "http://www.kariyer.net/is-ilani/dogus-planet-elektronik-ticaret-ve-bilisim-hizm-a-senior-front-end-developer-1583139"
+  },
+  {
+    "url": "http://www.yenibiris.com/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti/nodejs-yazilim-gelistirme-uzmani-is-ilani/705648",
+    "title": "NODEJS YAZILIM GELİŞTİRME UZMANI",
+    "employer": "Dsg İnsan Kaynakları ve Danışmanlık Tic.Ltd.Şti"
+  },
+  {
+    "title": "KIDEMLİ PHP YAZILIM UZMANI",
+    "employer": "Dsg İnsan Kaynakları ve Danışmanlık Tic.Ltd.Şti",
+    "urls": {
+      "Kariyer.net": "http://www.kariyer.net/is-ilani/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti-kidemli-php-yazilim-gelistirme-uzmani-1607925",
+      "Yenibiris": "http://www.yenibiris.com/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti/kidemli-php-yazilim-uzmani-is-ilani/705380"
+    }
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/eae-teknoloji-a-s-junior-yazilim-gelistirme-uzmani-1635042",
+    "title": "Junior Yazılım Geliştirme Uzmanı",
+    "employer": "EAE TEKNOLOJİ A.Ş."
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/erlab-teknoloji-a-s-front-end-web-developer-1604145",
+    "title": "Front end Web Developer",
+    "employer": "Erlab Teknoloji A.Ş."
   },
   {
     "url": "http://www.kariyer.net/is-ilani/gamegos-internet-teknolojileri-ltd-sti-software-engineer-1607718",
     "title": "SOFTWARE ENGINEER",
     "employer": "Gamegos İnternet Teknolojileri Ltd. Şti."
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/garanti-teknoloji-front-end-software-developer-1418252",
+    "title": "FRONT-END SOFTWARE DEVELOPER",
+    "employer": "Garanti Teknoloji"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/gazi-global-turizm-ve-bilgi-teknolojileri-a-s-yazilim-uzmani-1617514",
+    "title": "Yazılım Uzmanı",
+    "employer": "Gazi Global Turizm ve Bilgi Teknolojileri A.Ş."
+  },
+  {
+    "employer": "General Electric",
+    "title": "Senior Software Engineer",
+    "url": "http://www.kariyer.net/is-ilani/general-electric-senior-software-engineer-1596306"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/isc-international-solutions-consulting-ltd-big-data-developer-1608632",
+    "title": "BIG DATA DEVELOPER",
+    "employer": "ISC - International Solutions Consulting Ltd."
+  },
+  {
+    "employer": "KADAK İNŞAAT OTO.TİC.LTD.ŞTİ",
+    "title": "Web Yazılım Uzmanı",
+    "url": "http://www.yenibiris.com/kadak-insaat-oto-tic-ltd-sti/web-yazilim-uzmani-is-ilani/693119"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/kapgel-frontend-developer-1411080",
+    "title": "Frontend Developer",
+    "employer": "KapGel"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/koc-university-devops-specialist-1610360",
+    "title": "DevOps Specialist",
+    "employer": "Koç University",
+    "urls": {
+      "LinkedIn": "https://www.linkedin.com/jobs2/view/158885305"
+    }
+  },
+  {
+    "title": "Sr. Full Stack Developer",
+    "employer": "KOC UNIVERSITESI",
+    "urls": {
+      "Kariyer.net": "http://www.kariyer.net/is-ilani/koc-university-sr-full-stack-developer-1579812",
+      "LinkedIn": "https://www.linkedin.com/jobs2/view/175436507"
+    }
+  },
+  {
+    "employer": "Logicalbond Software & Consulting",
+    "title": "Senior Software Developer",
+    "url": "https://www.linkedin.com/jobs/view/188350829"
   },
   {
     "url": "http://www.kariyer.net/is-ilani/markafoni-uygulama-gelistirme-uzmani-fe-1627617",
@@ -65,29 +187,9 @@
     "employer": "Markafoni"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/s-yazilim-reklam-danismanlik-php-yazilim-uzmani-senior-developer-1464517",
-    "title": "PHP Yazılım Uzmanı / Senior Developer",
-    "employer": "S YAZILIM REKLAM DANIŞMANLIK"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/tatilbudur-com-kidemli-php-gelistirici-1588959",
-    "title": "Kıdemli PHP Geliştirici",
-    "employer": "TatilBudur.Com"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/next-generation-kidemli-yazilim-gelistirme-uzmani-1619394",
-    "title": "Kıdemli Yazılım Geliştirme Uzmanı",
-    "employer": "Next Generation"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/bilbest-bilisim-saglik-egitim-dis-ticaret-ve-sanay-senior-software-developer-1633152",
-    "title": "Senıor Software Developer",
-    "employer": "BİLBEST Bilişim Sağlık Eğitim Dış Ticaret ve Sanay"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/gazi-global-turizm-ve-bilgi-teknolojileri-a-s-yazilim-uzmani-1617514",
-    "title": "Yazılım Uzmanı",
-    "employer": "Gazi Global Turizm ve Bilgi Teknolojileri A.Ş."
+    "url": "http://www.kariyer.net/is-ilani/michael-page-backend-java-developer-1622777",
+    "title": "Backend Java Developer",
+    "employer": "Michael Page"
   },
   {
     "url": "http://www.kariyer.net/is-ilani/nesine-com-kidemli-onyuz-yazilim-uzmani-1551350",
@@ -95,65 +197,19 @@
     "employer": "Nesine.com"
   },
   {
-    "url": "http://www.yenibiris.com/ofix-com/javascript-yazilim-gelistirme-uzmani-is-ilani/705925",
-    "title": "JavaScript Yazılım Geliştirme Uzmanı",
-    "employer": "OFİX.COM"
+    "employer": "Net Danışmanlık",
+    "title": "Backend Developer",
+    "url": "https://www.secretcv.com/net-danismanlik/backend-developer-is-ilanlari-771635"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/solosis-gorsel-bilgilendirme-proje-ve-danismanlik-yazilim-muhendisi-1631939",
-    "title": "Yazılım Mühendisi",
-    "employer": "Solosis Görsel Bilgilendirme Proje ve Danışmanlık"
+    "employer": "Net Danışmanlık",
+    "title": "Ios Yazılım Geliştirici",
+    "url": "https://www.secretcv.com/net-danismanlik/ios-yazilim-gelistirici-is-ilanlari-771645"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/uyumsoft-a-s-yazilim-gelistirme-uzmani-1635885",
-    "title": "Yazılım Geliştirme Uzmanı",
-    "employer": "Uyumsoft A.Ş."
-  },
-  {
-    "url": "http://www.yenibiris.com/ofix-com/c-yazilim-gelistirme-uzmani-is-ilani/705929",
-    "title": "C# Yazılım Geliştirme Uzmanı",
-    "employer": "OFİX.COM"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/koc-university-devops-specialist-1610360",
-    "title": "DevOps Specialist",
-    "employer": "Koç University",
-    "urls": {
-      "LinkedIn": "https://www.linkedin.com/jobs2/view/158885305"
-    }
-  },
-  {
-    "title": "Chief Architect - Test Automation",
-    "employer": "Crossover for Work",
-    "urls": {
-      "Crossover": "https://www.crossover.com/x/redirect/job/2126",
-      "LinkedIn": "https://www.linkedin.com/comm/jobs2/view/188806771"
-    }
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/sistek-bilgisayar-yazilim-ve-danismanlik-a-s-yazilim-uzmani-1596327",
-    "title": "Yazılım Uzmanı",
-    "employer": "Sistek Bilgisayar Yazılım ve Danışmanlık A.Ş."
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/argela-software-developer-1550786",
-    "title": "Software Developer",
-    "employer": "Argela"
-  },
-  {
-    "url": "http://www.yenibiris.com/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti/nodejs-yazilim-gelistirme-uzmani-is-ilani/705648",
-    "title": "NODEJS YAZILIM GELİŞTİRME UZMANI",
-    "employer": "Dsg İnsan Kaynakları ve Danışmanlık Tic.Ltd.Şti"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/eae-teknoloji-a-s-junior-yazilim-gelistirme-uzmani-1635042",
-    "title": "Junior Yazılım Geliştirme Uzmanı",
-    "employer": "EAE TEKNOLOJİ A.Ş."
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/theiums-com-senior-backend-developer-1624462",
-    "title": "SENİOR BACKEND DEVELOPER",
-    "employer": "Theiums.com"
+    "url": "http://www.kariyer.net/is-ilani/next-generation-kidemli-yazilim-gelistirme-uzmani-1619394",
+    "title": "Kıdemli Yazılım Geliştirme Uzmanı",
+    "employer": "Next Generation"
   },
   {
     "url": "http://www.kariyer.net/is-ilani/nuevo-yazilim-cozumleri-a-s-web-arayuz-gelistirici-972709",
@@ -161,17 +217,14 @@
     "employer": "Nuevo Yazılım Çözümleri A.Ş."
   },
   {
-    "title": "KIDEMLİ PHP YAZILIM UZMANI",
-    "employer": "Dsg İnsan Kaynakları ve Danışmanlık Tic.Ltd.Şti",
-    "urls": {
-      "Kariyer.net": "http://www.kariyer.net/is-ilani/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti-kidemli-php-yazilim-gelistirme-uzmani-1607925",
-      "Yenibiris": "http://www.yenibiris.com/dsg-insan-kaynaklari-ve-danismanlik-tic-ltd-sti/kidemli-php-yazilim-uzmani-is-ilani/705380"
-    }
+    "url": "http://www.yenibiris.com/ofix-com/c-yazilim-gelistirme-uzmani-is-ilani/705929",
+    "title": "C# Yazılım Geliştirme Uzmanı",
+    "employer": "OFİX.COM"
   },
   {
-    "url": "https://www.linkedin.com/jobs2/view/193291051",
-    "title": "Senior Software Engineer",
-    "employer": "OTO.NET"
+    "url": "http://www.yenibiris.com/ofix-com/javascript-yazilim-gelistirme-uzmani-is-ilani/705925",
+    "title": "JavaScript Yazılım Geliştirme Uzmanı",
+    "employer": "OFİX.COM"
   },
   {
     "url": "https://www.linkedin.com/jobs2/view/188525282",
@@ -179,32 +232,74 @@
     "employer": "Oredata"
   },
   {
-    "title": "Sr. Full Stack Developer",
-    "employer": "KOC UNIVERSITESI",
-    "urls": {
-      "Kariyer.net": "http://www.kariyer.net/is-ilani/koc-university-sr-full-stack-developer-1579812",
-      "LinkedIn": "https://www.linkedin.com/jobs2/view/175436507"
-    }
+    "url": "https://www.linkedin.com/jobs2/view/193291051",
+    "title": "Senior Software Engineer",
+    "employer": "OTO.NET"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/garanti-teknoloji-front-end-software-developer-1418252",
-    "title": "FRONT-END SOFTWARE DEVELOPER",
-    "employer": "Garanti Teknoloji"
+    "title": "PRODUCT MANAGER",
+    "url": "http://www.yenibiris.com/platin-group-a-s/product-manager-is-ilani/662528",
+    "employer": "PLATİN GROUP A.Ş."
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/michael-page-backend-java-developer-1622777",
-    "title": "Backend Java Developer",
-    "employer": "Michael Page"
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/kapgel-frontend-developer-1411080",
-    "title": "Frontend Developer",
-    "employer": "KapGel"
+    "employer": "Ranna Digital Minds",
+    "title": "Senior ve Junior PHP Back End Developer",
+    "url": "https://www.secretcv.com/ranna-digital-minds/senior-ve-junior-php-back-end-developer-is-ilanlari-716199"
   },
   {
     "url": "http://www.kariyer.net/is-ilani/retport-yazilim-gelistirme-uzmani-1620435",
     "title": "Yazılım Geliştirme Uzmanı",
     "employer": "Retport"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/s-yazilim-reklam-danismanlik-php-yazilim-uzmani-senior-developer-1464517",
+    "title": "PHP Yazılım Uzmanı / Senior Developer",
+    "employer": "S YAZILIM REKLAM DANIŞMANLIK"
+  },
+  {
+    "employer": "SAP",
+    "title": "(Senior) Developer for the SAP Big Data Hub Development Job",
+    "url": "https://jobs.sap.com/job/Istanbul-%28Senior%29-Developer-for-the-SAP-Big-Data-Hub-Development-Job-34/323656501"
+  },
+  {
+    "employer": "Segmentify",
+    "title": "Full Stack Web Developer",
+    "url": "http://tr.indeed.com/viewjob?jk=1c156b9decd438be"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/signum-teknoloji-tanitim-ve-egitim-lts-sti-yazilim-uzmani-1631185",
+    "title": "YAZILIM UZMANI",
+    "employer": "Signum Teknoloji Tanıtım ve Eğitim Lts. Şti"
+  },
+  {
+    "employer": "Sinemia",
+    "title": "Software Developer",
+    "url": "https://www.linkedin.com/jobs/view/188097341"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/sistek-bilgisayar-yazilim-ve-danismanlik-a-s-yazilim-uzmani-1596327",
+    "title": "Yazılım Uzmanı",
+    "employer": "Sistek Bilgisayar Yazılım ve Danışmanlık A.Ş."
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/solosis-gorsel-bilgilendirme-proje-ve-danismanlik-yazilim-muhendisi-1631939",
+    "title": "Yazılım Mühendisi",
+    "employer": "Solosis Görsel Bilgilendirme Proje ve Danışmanlık"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/tatilbudur-com-kidemli-php-gelistirici-1588959",
+    "title": "Kıdemli PHP Geliştirici",
+    "employer": "TatilBudur.Com"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/theiums-com-senior-backend-developer-1624462",
+    "title": "SENİOR BACKEND DEVELOPER",
+    "employer": "Theiums.com"
+  },
+  {
+    "url": "https://www.linkedin.com/jobs2/view/175470590",
+    "title": "Graphic and Web Designer",
+    "employer": "Tiga Bilişim Hizmetleri Ltd. Şti."
   },
   {
     "title": "ININ Platform Yazılım Geliştirme Uzmanı",
@@ -215,23 +310,18 @@
     }
   },
   {
-    "url": "https://www.linkedin.com/jobs2/view/175470590",
-    "title": "Graphic and Web Designer",
-    "employer": "Tiga Bilişim Hizmetleri Ltd. Şti."
+    "employer": "TURKUVAZ MEDYA GRUBU",
+    "title": "Yazılım Geliştirme Uzmanı",
+    "url": "http://www.kariyer.net/is-ilani/turkuvaz-medya-grubu-yazilim-gelistirme-uzmani-1488795"
+  },
+  {
+    "url": "http://www.kariyer.net/is-ilani/uyumsoft-a-s-yazilim-gelistirme-uzmani-1635885",
+    "title": "Yazılım Geliştirme Uzmanı",
+    "employer": "Uyumsoft A.Ş."
   },
   {
     "url": "http://www.kariyer.net/is-ilani/yceo-muhendislik-san-tic-as-yazilim-elemani-1607744",
     "title": "Yazılım Elemanı",
     "employer": "Yceo Mühendislik San. Tic. AŞ."
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/erlab-teknoloji-a-s-front-end-web-developer-1604145",
-    "title": "Front end Web Developer",
-    "employer": "Erlab Teknoloji A.Ş."
-  },
-  {
-    "url": "http://www.kariyer.net/is-ilani/bilge-adam-bilisim-grubu-arayuz-yazilim-uzmani-1243211",
-    "title": "Arayüz Yazılım Uzmanı",
-    "employer": "Bilge Adam Bilişim Grubu"
   }
 ]
