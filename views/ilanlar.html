@@ -10,7 +10,6 @@
 <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
   <thead>
     <tr>
-      <th>İlan tarihi</th>
       <th class="mdl-data-table__cell--non-numeric">Pozisyon</th>
       <th class="mdl-data-table__cell--non-numeric">Firma</th>
     </tr>
@@ -18,7 +17,6 @@
   <tbody id="listBody">
     {% for job in jobs -%}
     <tr>
-      <td>{{job.date}}</td>
       <td class="mdl-data-table__cell--non-numeric">
         <a target="_blank" href="{{job.url}}">{{job.title}}</a>
         {% if job.extras and job.extras.length %}
