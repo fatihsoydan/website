@@ -18,18 +18,18 @@
     {% for job in jobs -%}
     <tr>
       <td class="mdl-data-table__cell--non-numeric">
+        {% if job.employerurl %}
+        <a target="_blank" href="{{job.employerurl}}">{{job.employer}}</a>
+        {% else %}
+        {{job.employer}}
+        {% endif %}
+      </td>
+      <td class="mdl-data-table__cell--non-numeric">
         <a target="_blank" href="{{job.url}}">{{job.title}}</a>
         {% if job.extras and job.extras.length %}
           ({% for extra in job.extras -%}
             <a target="_blank" href="{{extra.url}}">{{extra.title}}</a>
           {%- endfor %})
-        {% endif %}
-      </td>
-      <td class="mdl-data-table__cell--non-numeric">
-        {% if job.employerurl %}
-        <a target="_blank" href="{{job.employerurl}}">{{job.employer}}</a>
-        {% else %}
-        {{job.employer}}
         {% endif %}
       </td>
     </tr>
