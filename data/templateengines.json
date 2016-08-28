@@ -1,0 +1,90 @@
+{
+  "atpl.js": {
+    "github": "soywiz/atpl.js"
+  },
+  "doT": {
+    "github": "olado/doT",
+    "url": "https://olado.github.io/doT/"
+  },
+  "dustjs": {
+    "github": "linkedin/dustjs",
+    "url": "http://www.dustjs.com/",
+    "backedby": "LinkedIn"
+  },
+  "ect": {
+    "github": "baryshev/ect",
+    "url": "http://ectjs.com/"
+  },
+  "ejs": {
+    "github": "tj/ejs"
+  },
+  "handlebars.js": {
+    "github": "wycats/handlebars.js/",
+    "url": "http://handlebarsjs.com/"
+  },
+  "hogan.js": {
+    "github": "twitter/hogan.js",
+    "url": "https://twitter.github.io/hogan.js/",
+    "backedby": "Twitter"
+  },
+  "jazz": {
+    "github": "shinesolutions/jazz"
+  },
+  "jshtml": {
+    "github": "elmerbulthuis/jshtml",
+    "status": "Deprecated"
+  },
+  "jsrender": {
+    "github": "BorisMoore/jsrender"
+  },
+  "jqtpl": {
+    "github": "kof/jqtpl",
+    "status": "Deprecated"
+  },
+  "just": {
+    "github": "baryshev/just"
+  },
+  "liquor": {
+    "github": "chjj/liquor"
+  },
+  "Markup.js": {
+    "github": "adammark/Markup.js"
+  },
+  "Mu / mustache": {
+    "github": "janl/mustache.js",
+    "url": "https://mustache.github.io/"
+  },
+  "nunjucks": {
+    "github": "mozilla/nunjucks",
+    "url": "https://mozilla.github.io/nunjucks/",
+    "backedby": "Mozilla"
+  },
+  "plates": {
+    "github": "flatiron/plates",
+    "backedby": "Flatiron"
+  },
+  "pug / jade": {
+    "github": "pugjs/pug",
+    "url": "http://jade-lang.com/"
+  },
+  "QEJS": {
+    "github": "jepso/QEJS"
+  },
+  "swig": {
+    "github": "paularmstrong/swig",
+    "status": "Deprecated"
+  },
+  "templayed.js": {
+    "github": "archan937/templayed.js/",
+    "url": "https://archan937.github.io/templayed.js/"
+  },
+  "toffee": {
+    "github": "malgorithms/toffee"
+  },
+  "underscore": {
+    "github": "jashkenas/underscore"
+  },
+  "whiskers.js": {
+    "github": "gsf/whiskers.js"
+  }
+}

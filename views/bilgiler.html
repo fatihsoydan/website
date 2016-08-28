@@ -1,0 +1,32 @@
+{% extends "./layout.html" %}
+
+{% block title %}Node.js bilgileri{% endblock %}
+{% block page %}
+
+<h4>Şablon Motorları / Template Engines</h4>
+
+<table>
+  <tr>
+    <th>Adı</th>
+    <th>Github</th>
+    <th>Homepage</th>
+    <th>Backed by</th>
+  </tr>
+  {% for name,engine in templateengines %}
+  <tr>
+    <td>{{name}}</td>
+    <td>
+      <a target="_blank" href="https://github.com/{{engine.github}}">{{engine.github}}</a>
+    </td>
+    <td>
+      {% if engine.url %}
+        <a target="_blank" href="{{engine.url}}">{{engine.url}}</a>
+      {% endif %}
+    </td>
+    <td>{{engine.backedby}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}

@@ -16,6 +16,11 @@ app.use(express.static('./public'))
 app.use('/bower', express.static('./bower_components'))
 
 app.get('/', (req, res) => res.render('views/nodetr.html', {page:'nodetr'}))
+app.get('/bilgiler', (req, res) => res.render('views/bilgiler.html', {
+  page:"bilgiler",
+  templateengines: require('./data/templateengines.json')
+}))
+
 app.get('/ilanlar', (req, res) => res.render('views/ilanlar.html', {
   page:"ilanlar",
   jobs: require('./data/jobs.json')
