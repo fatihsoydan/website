@@ -13,5 +13,10 @@
     "name": "Kapgel",
     "url": "http://www.kapgel.com/",
     "image": "http://www.kapgel.com/wp-content/uploads/2015/10/kapgel1.png"
+  },
+  {
+    "name": "Zingat",
+    "url": "http://www.zingat.com/",
+    "image": "https://static.zingat.com/static/img/data/about/zingat-white-blue-sm.jpg"
   }
 ]
