@@ -58,6 +58,16 @@
     "company": "Dugun.com"
   },
   {
+    "name": "Murat Çorlu",
+    "npm": "muratcorlu",
+    "npmcount": 2,
+    "github": "muratcorlu",
+    "image": "https://avatars0.githubusercontent.com/u/127687?v=3&s=45",
+    "twitter": "muratcorlu",
+    "url": "http://muratcorlu.com/",
+    "company": "Zingat"
+  },
+  {
     "name": "Onur Ünlü",
     "npm": "unluonur",
     "npmcount": 2,
@@ -92,5 +102,14 @@
     "image": "https://avatars0.githubusercontent.com/u/1387333?v=3&s=45",
     "twitter": "inarli",
     "company": "Zingat"
+  },
+  {
+    "name": "Necip Arg",
+    "npm": "neciparg",
+    "npmcount": 0,
+    "github": "narg",
+    "image": "https://avatars0.githubusercontent.com/u/9002698?v=3&s=45",
+    "twitter": "neciparg",
+    "url": "http://www.neciparg.com/"
   }
 ]
