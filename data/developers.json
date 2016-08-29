@@ -31,11 +31,21 @@
   {
     "name": "Doğan Öztürk",
     "npm": "dodothebird",
-    "npmcount": "3",
+    "npmcount": 3,
     "github": "doganozturk",
     "image": "https://avatars2.githubusercontent.com/u/12007317?v=3&s=45",
     "twitter": "dodothebird",
     "company": "Zingat"
+  },
+  {
+    "name": "Salim Kayabaşı",
+    "npm": "salimkayabasi",
+    "npmcount": 3,
+    "github": "salimkayabasi",
+    "image": "https://avatars3.githubusercontent.com/u/1138037?v=3&s=45",
+    "twitter": "salimkayabasi",
+    "url": "http://salimkayabasi.com/",
+    "company": "KapGel"
   },
   {
     "name": "Arif Çakıroğlu",
