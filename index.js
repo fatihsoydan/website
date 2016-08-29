@@ -30,6 +30,17 @@ app.get('/', (req, res) => res.render('views/nodetr.html', {
 
 app.get('/bilgiler', (req, res) => res.render('views/bilgiler.html', {
   title: 'Node.js bilgileri',
+  page: 'bilgiler'
+}))
+
+app.get('/docs/nodejs-frameworks', (req, res) => res.render('views/docs/frameworks.html', {
+  title: 'Node.js Frameworks',
+  page: 'bilgiler',
+  templateengines: require('./data/frameworks.json')
+}))
+
+app.get('/docs/nodejs-template-engines', (req, res) => res.render('views/docs/templateengines.html', {
+  title: 'Node.js Şablon Motorları / Template Engines',
   page: 'bilgiler',
   templateengines: require('./data/templateengines.json')
 }))

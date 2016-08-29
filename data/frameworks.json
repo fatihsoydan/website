@@ -1,0 +1,103 @@
+{
+  "actionhero.js": {
+    "npm": "actionhero",
+    "github": "evantahler/actionhero",
+    "url": "http://www.actionherojs.com/",
+    "purposes": "API"
+  },
+  "AdonisJs": {
+    "npm": "adonis-framework",
+    "github": "adonisjs/adonis-framework",
+    "url": "http://adonisjs.com/",
+    "purposes": "MVC"
+  },
+  "AllcountJS": {
+    "npm": "allcountjs",
+    "github": "allcount/allcountjs",
+    "url": "https://allcountjs.com/",
+    "purposes": "Full-stack"
+  },
+  "Catberry": {
+    "npm": "catberry",
+    "github": "catberry/catberry",
+    "url": "http://catberry.org/",
+    "purposes": "Frontend, Isomorphic"
+  },
+  "compound.js": {
+    "npm": "compound",
+    "github": "1602/compound",
+    "url": "http://compoundjs.com/",
+    "purposes": "MVC"
+  },
+  "Danf": {
+    "npm": "danf",
+    "github": "gnodi/danf",
+    "purposes": "Full-stack, Isomorphic"
+  },
+  "Derby": {
+    "npm": "derby",
+    "github": "derbyjs/derby",
+    "url": "http://derbyjs.com/",
+    "purposes": "MVC"
+  },
+  "Diet.js": {
+    "npm": "diet",
+    "github": "bayorigin/diet",
+    "url": "http://dietjs.com/",
+    "purposes": "MVC, VirtualHosting"
+  },
+  "Connnect": {
+    "npm": "connect",
+    "github": "senchalabs/connect",
+    "url": "http://senchalabs.github.com/connect",
+    "purposes": "Genel"
+  },
+  "Express": {
+    "npm": "express",
+    "github": "expressjs/express",
+    "url": "https://expressjs.com/",
+    "purposes": "Genel"
+  },
+  "Feathers": {
+    "npm": "feathers",
+    "github": "feathersjs/feathers",
+    "url": "http://feathersjs.com/",
+    "purposes": "Real-time"
+  },
+  "facet": {
+    "npm": "facet-platform",
+    "github": "facet/platform",
+    "url": "https://facet.github.io/platform/",
+    "purposes": "API"
+  },
+  "flatiron": {
+    "npm": "flatiron",
+    "github": "flatiron/flatiron",
+    "url": "http://flatironjs.org/",
+    "purposes": ""
+  },
+  "flickr.js": {
+    "npm": "flickerjs",
+    "github": "FlickerStudio/flickerjs",
+    "url": "https://flickerstudio.github.io/flickerjs/",
+    "purposes": "Web"
+  },
+  "Fortune.js": {
+    "npm": "fortune",
+    "github": "fortunejs/fortune",
+    "url": "http://fortune.js.org/",
+    "purposes": "Database Abstraction"
+  },
+  "Frisby": {
+    "npm": "frisby",
+    "github": "vlucas/frisby",
+    "url": "http://frisbyjs.com/",
+    "purposes": "REST API Testing"
+  },
+  "geddy": {
+    "npm": "geddy",
+    "github": "geddy/geddy",
+    "url": "http://geddyjs.org",
+    "url": "Web"
+  }
+}

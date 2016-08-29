@@ -2,29 +2,9 @@
 
 {% block page %}
 
-<h2>Şablon Motorları / Template Engines</h2>
-
-<table class="table table-condensed table-bordered table-hover">
-  <tr>
-    <th>Adı</th>
-    <th>Github</th>
-    <th>Homepage</th>
-    <th>Destekleyen</th>
-  </tr>
-  {% for name,engine in templateengines %}
-  <tr>
-    <td>{{name}}</td>
-    <td>
-      <a href="https://github.com/{{engine.github}}">{{engine.github}}</a>
-    </td>
-    <td>
-      {% if engine.url %}
-        <a href="{{engine.url}}">{{engine.url}}</a>
-      {% endif %}
-    </td>
-    <td>{{engine.backedby}}</td>
-  </tr>
-  {% endfor %}
-</table>
+<dl class="dl-horizontal">
+<dl><a href="/docs/nodejs-frameworks">Node.js Frameworks</a></dl>
+<dl><a href="/docs/nodejs-template-engines">Node.js Şablon Motorları / Template Engines</a></dl>
+</dl>
 
 {% endblock %}
