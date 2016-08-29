@@ -5,10 +5,8 @@
     "npmcount": 8,
     "github": "yasinaydin",
     "image": "https://avatars3.githubusercontent.com/u/1379677?v=3&s=45",
-    "twitter": false,
     "url": "https://yasinaydin.net",
-    "company": "Solvoyo",
-    "hireable": false
+    "company": "Solvoyo"
   },
   {
     "name": "Bahadır Gököz",
@@ -18,19 +16,7 @@
     "image": "https://avatars3.githubusercontent.com/u/883726?v=3&s=45",
     "twitter": "bhdrgkz",
     "url": "http://bhdrgkz.com/",
-    "company": "Zingat",
-    "hireable": false
-  },
-  {
-    "name": "İlhan Çetin",
-    "npm": "ilhnctn",
-    "npmcount": 0,
-    "github": "ilhnctn",
-    "image": "https://avatars3.githubusercontent.com/u/1893290?v=3&s=45",
-    "twitter": "ilhnctn",
-    "url": false,
-    "company": "Zingat",
-    "hireable": false
+    "company": "Zingat"
   },
   {
     "name": "Doğan Öztürk",
@@ -39,9 +25,35 @@
     "github": "doganozturk",
     "image": "https://avatars2.githubusercontent.com/u/12007317?v=3&s=45",
     "twitter": "dodothebird",
-    "url": false,
-    "company": "Zingat",
-    "hireable": false
+    "company": "Zingat"
+  },
+  {
+    "name": "Arif Çakıroğlu",
+    "npm": "arifcakiroglu",
+    "npmcount": 2,
+    "github": "arifcakiroglu",
+    "image": "https://avatars2.githubusercontent.com/u/1484664?v=3&s=45",
+    "twitter": "arifcakiroqlu",
+    "url": "http://nodeschool.ist/",
+    "company": "Dugun.com"
+  },
+  {
+    "name": "Hüseyin Babal",
+    "npm": "huseyinbabal",
+    "npmcount": 1,
+    "github": "huseyinbabal",
+    "image": "https://avatars3.githubusercontent.com/u/1237982?v=3&s=45",
+    "twitter": "huseyinbabal",
+    "url": "http://huseyinbabal.net/"
+  },
+  {
+    "name": "İlhan Çetin",
+    "npm": "ilhnctn",
+    "npmcount": 0,
+    "github": "ilhnctn",
+    "image": "https://avatars3.githubusercontent.com/u/1893290?v=3&s=45",
+    "twitter": "ilhnctn",
+    "company": "Zingat"
   },
   {
     "name": "İlkay Narlı",
@@ -50,8 +62,6 @@
     "github": "inarli",
     "image": "https://avatars0.githubusercontent.com/u/1387333?v=3&s=45",
     "twitter": "inarli",
-    "url": false,
-    "company": "Zingat",
-    "hireable": false
+    "company": "Zingat"
   }
 ]
