@@ -1,14 +1,133 @@
 {
+  "Express": {
+    "npm": "express",
+    "github": "expressjs/express",
+    "url": "https://expressjs.com/",
+    "purposes": "Genel"
+  },
+  "Connnect": {
+    "npm": "connect",
+    "github": "senchalabs/connect",
+    "url": "http://senchalabs.github.com/connect",
+    "purposes": "Genel"
+  },
+  "flatiron": {
+    "npm": "flatiron",
+    "github": "flatiron/flatiron",
+    "url": "http://flatironjs.org/",
+    "purposes": "Genel"
+  },
+  "restify": {
+    "npm": "restify",
+    "github": "restify/node-restify",
+    "url": "http://restify.com/",
+    "purposes": "API"
+  },
+  "hapi": {
+    "npm": "hapi",
+    "github": "hapijs/hapi",
+    "url": "http://hapijs.com/",
+    "purposes": "API, Web"
+  },
+  "koa": {
+    "npm": "koa",
+    "github": "koajs/koa",
+    "url": "http://koajs.com/",
+    "purposes": "Genel"
+  },
+  "Sails.js": {
+    "npm": "sails",
+    "github": "balderdashy/sails",
+    "url": "http://sailsjs.org/",
+    "purposes": "API, MVC"
+  },
+  "LoopBack": {
+    "npm": "loopback",
+    "github": "strongloop/loopback",
+    "url": "https://strongloop.com/node-js/loopback-framework/",
+    "purposes": "API",
+    "backedby": "IBM, StrongLoop"
+  },
+
+  
+  
+  "Frisby": {
+    "npm": "frisby",
+    "github": "vlucas/frisby",
+    "url": "http://frisbyjs.com/",
+    "purposes": "REST API Testing"
+  },
+  "Seneca": {
+    "npm": "seneca",
+    "github": "senecajs/seneca",
+    "url": "http://senecajs.org/",
+    "purposes": "Microservices"
+  },
+  "Mean.io": {
+    "npm": "mean-cli",
+    "github": "linnovate/mean",
+    "url": "http://mean.io/",
+    "purposes": "Full-stack"
+  },
   "actionhero.js": {
     "npm": "actionhero",
     "github": "evantahler/actionhero",
     "url": "http://www.actionherojs.com/",
     "purposes": "API"
   },
-  "AdonisJs": {
-    "npm": "adonis-framework",
-    "github": "adonisjs/adonis-framework",
-    "url": "http://adonisjs.com/",
+  "Fortune.js": {
+    "npm": "fortune",
+    "github": "fortunejs/fortune",
+    "url": "http://fortune.js.org/",
+    "purposes": "Database Abstraction"
+  },
+  "Feathers": {
+    "npm": "feathers",
+    "github": "feathersjs/feathers",
+    "url": "http://feathersjs.com/",
+    "purposes": "Realtime"
+  },
+  "Mojito": {
+    "npm": "mojito",
+    "github": "yahoo/mojito",
+    "url": "https://developer.yahoo.com/cocktails/mojito/",
+    "purposes": "Web",
+    "backedby": "Yahoo",
+    "builton": "Express"
+  },
+  "Nodal": {
+    "npm": "nodal",
+    "github": "keithwhor/nodal",
+    "url": "http://www.nodaljs.com/",
+    "purposes": "API"
+  },
+  "ThinkJS": {
+    "npm": "thinkjs",
+    "github": "75team/thinkjs",
+    "url": "https://thinkjs.org/",
+    "purposes": "ES6/ES7"
+  },
+  "geddy": {
+    "npm": "geddy",
+    "github": "geddy/geddy",
+    "url": "http://geddyjs.org",
+    "purposes": "Web"
+  },
+  "Restling": {
+    "npm": "restling",
+    "github": "lucasfeliciano/restling",
+    "purposes": "Async HTTP"
+  },
+  "Derby": {
+    "npm": "derby",
+    "github": "derbyjs/derby",
+    "url": "http://derbyjs.com/",
+    "purposes": "MVC"
+  },
+  "compound.js": {
+    "npm": "compound",
+    "github": "1602/compound",
+    "url": "http://compoundjs.com/",
     "purposes": "MVC"
   },
   "AllcountJS": {
@@ -23,22 +142,28 @@
     "url": "http://catberry.org/",
     "purposes": "Frontend, Isomorphic"
   },
-  "compound.js": {
-    "npm": "compound",
-    "github": "1602/compound",
-    "url": "http://compoundjs.com/",
+  "Locomotive": {
+    "npm": "locomotive",
+    "github": "jaredhanson/locomotive",
+    "url": "http://locomotivejs.org/",
     "purposes": "MVC"
   },
-  "Danf": {
-    "npm": "danf",
-    "github": "gnodi/danf",
-    "purposes": "Full-stack, Isomorphic"
+  "SocketStream": {
+    "npm": "socketstream",
+    "github": "socketstream/socketstream",
+    "url": "http://socketstream.org/",
+    "purposes": "Realtime, Web"
   },
-  "Derby": {
-    "npm": "derby",
-    "github": "derbyjs/derby",
-    "url": "http://derbyjs.com/",
-    "purposes": "MVC"
+  "Meteor": {
+    "npm": "meteor",
+    "github": "meteor/meteor",
+    "url": "https://www.meteor.com/",
+    "purposes": "Genel"
+  },
+  "trails": {
+    "npm": "trails",
+    "github": "trailsjs/trails",
+    "purposes": "Genel"
   },
   "Diet.js": {
     "npm": "diet",
@@ -46,35 +171,103 @@
     "url": "http://dietjs.com/",
     "purposes": "MVC, VirtualHosting"
   },
-  "Connnect": {
-    "npm": "connect",
-    "github": "senchalabs/connect",
-    "url": "http://senchalabs.github.com/connect",
-    "purposes": "Genel"
-  },
-  "Express": {
-    "npm": "express",
-    "github": "expressjs/express",
-    "url": "https://expressjs.com/",
-    "purposes": "Genel"
-  },
-  "Feathers": {
-    "npm": "feathers",
-    "github": "feathersjs/feathers",
-    "url": "http://feathersjs.com/",
-    "purposes": "Real-time"
-  },
-  "facet": {
-    "npm": "facet-platform",
-    "github": "facet/platform",
-    "url": "https://facet.github.io/platform/",
+  "Restberry": {
+    "npm": "restberry",
+    "github": "materik/restberry",
+    "url": "http://restberry.com/",
     "purposes": "API"
   },
-  "flatiron": {
-    "npm": "flatiron",
-    "github": "flatiron/flatiron",
-    "url": "http://flatironjs.org/",
-    "purposes": ""
+  "SANE Stack": {
+    "npm": "sane-cli",
+    "github": "sane/sane",
+    "url": "http://sanestack.com/",
+    "purposes": "Full-stack",
+    "uses": "Sails, Ember"
+  },
+  "Horizon": {
+    "npm": "horizon",
+    "github": "rethinkdb/horizon",
+    "url": "http://horizon.io/",
+    "purposes": "API",
+    "backedby": "RethinkDB"
+  },
+  "Percolator": {
+    "npm": "percolator",
+    "github": "cainus/percolator",
+    "url": "http://percolatorjs.com/",
+    "purposes": "API"
+  },
+  "Sleek.js": {
+    "npm": "sleek.js",
+    "github": "cubettech/sleekjs",
+    "url": "http://sleekjs.com/",
+    "purposes": "Web"
+  },
+  "RhapsodyJS": {
+    "npm": "rhapsody",
+    "github": "rhapsodyjs/RhapsodyJS",
+    "url": "https://rhapsodyjs.github.io/",
+    "purposes": "HMVC, API, WebSockets"
+  },
+  "Raddish": {
+    "npm": "raddish",
+    "github": "JaspervRijbroek/raddish",
+    "url": "http://getraddish.com/",
+    "purposes": "MVC, DCI, RAD"
+  },
+  "We.js": {
+    "npm": "we",
+    "github": "wejs/we",
+    "url": "https://wejs.org/",
+    "purposes": "MVC"
+  },
+  "AdonisJs": {
+    "npm": "adonis-framework",
+    "github": "adonisjs/adonis-framework",
+    "url": "http://adonisjs.com/",
+    "purposes": "MVC"
+  },
+  "RestMVC": {
+    "npm": "restmvc.js",
+    "github": "keithnlarsen/restmvc.js",
+    "purposes": "API"
+  },
+  "Seeds.js": {
+    "npm": "seeds",
+    "github": "terminalvelocity/seeds.js",
+    "url": "http://seedsjs.com/",
+    "purposes": "Full-stack",
+    "uses": "Sails, Ember"
+  },
+  "Strapi": {
+    "npm": "strapi",
+    "github": "strapi/strapi",
+    "url": "http://strapi.io/",
+    "purposes": "API"
+  },
+  "noodle": {
+    "npm": "noodlejs",
+    "github": "dharmafly/noodle",
+    "url": "http://noodlejs.com/",
+    "purposes": "Scraping"
+  },
+  "Danf": {
+    "npm": "danf",
+    "github": "gnodi/danf",
+    "purposes": "Full-stack, Isomorphic"
+  },
+  "MEAN.JS": {
+    "npm": "meanjs",
+    "github": "meanjs/mean",
+    "url": "http://meanjs.org/",
+    "purposes": "Full-stack"
+  },
+  "Nuke.js": {
+    "npm": "generator-nukejs",
+    "github": "FREEZX/nuke.js",
+    "url": "http://nukejs.com/",
+    "purposes": "Realtime, Full-stack",
+    "uses": "primus, express, mithril, mongodb, redis"
   },
   "flickr.js": {
     "npm": "flickerjs",
@@ -82,22 +275,21 @@
     "url": "https://flickerstudio.github.io/flickerjs/",
     "purposes": "Web"
   },
-  "Fortune.js": {
-    "npm": "fortune",
-    "github": "fortunejs/fortune",
-    "url": "http://fortune.js.org/",
-    "purposes": "Database Abstraction"
+  "Gugamarket": {
+    "npm": "gugamarket",
+    "github": "pliik/gugamarket",
+    "url": "https://pliik.github.io/gugamarket/",
+    "purposes": "REST API"
   },
-  "Frisby": {
-    "npm": "frisby",
-    "github": "vlucas/frisby",
-    "url": "http://frisbyjs.com/",
-    "purposes": "REST API Testing"
+  "Restocat": {
+    "npm": "restocat",
+    "github": "restocat/restocat",
+    "purposes": "API"
   },
-  "geddy": {
-    "npm": "geddy",
-    "github": "geddy/geddy",
-    "url": "http://geddyjs.org",
-    "url": "Web"
+  "facet": {
+    "npm": "facet-platform",
+    "github": "facet/platform",
+    "url": "https://facet.github.io/platform/",
+    "purposes": "API"
   }
 }
