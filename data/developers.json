@@ -34,11 +34,11 @@
   },
   {
     "name": "Doğan Öztürk",
-    "npm": false,
-    "npmcount": "",
+    "npm": "dodothebird",
+    "npmcount": "3",
     "github": "doganozturk",
     "image": "https://avatars2.githubusercontent.com/u/12007317?v=3&s=45",
-    "twitter": false,
+    "twitter": "dodothebird",
     "url": false,
     "company": "Zingat",
     "hireable": false
