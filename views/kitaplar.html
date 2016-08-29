@@ -1,50 +1,33 @@
-{% set selected = "kitaplar" %}
-
 {% extends "./layout.html" %}
-
-{% block title %}Node.js Kitapları{% endblock %}
 
 {% block page %}
 
-<style>
-.clearfix {
-  clear: both;
-  display: block;
-  overflow: auto;
-}
-div.book {
-  float: left;
-  padding: 10px;
-}
-div.book img {
-  max-height: 150px;
-}
-</style>
+<h2>Türkçe kitaplar</h2>
 
-<h4>Türkçe kitaplar</h4>
-
-{% for book in books.tr -%}
-<div class="book">
-  <a target="_blank" href="{{ book.url }}">
-    <img alt="{{ book.title }}" title="{{ book.title }}" src="{{ book.thumb }}">
-  </a>
+<div class="row">
+  {% for book in books.tr -%}
+  <div class="book">
+    <a href="{{ book.url }}">
+      <img alt="{{ book.title }}" title="{{ book.title }}" src="{{ book.thumb }}">
+    </a>
+  </div>
+  {%- endfor %}
 </div>
-{%- endfor %}
 
-<div class="clearfix"></div>
+<h2>İngilizce Kitaplar</h2>
 
-<h4>İngilizce Kitaplar</h4>
+{% for categoryName, categoryBooks in books.en %}
+  <h3>{{ categoryName }}</h3>
 
-{% for a,b in books.en_cat %}
-  <h5>{{a}}</h5>
-  {% for book in b %}
-    <div class="book">
-      <a target="_blank" href="{{ book.url }}">
-        <img alt="{{ book.title }}" title="{{ book.title }}" src="{{ book.thumb }}">
-      </a>
-    </div>
-  {% endfor %}
-  <div class="clearfix"></div>
+  <div class="row">
+    {% for book in categoryBooks %}
+      <div class="book">
+        <a href="{{ book.url }}">
+          <img alt="{{ book.title }}" title="{{ book.title }}" src="{{ book.thumb }}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 {% endfor %}
 
 {% endblock %}

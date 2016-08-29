@@ -1,11 +1,10 @@
 {% extends "./layout.html" %}
 
-{% block title %}Node.js bilgileri{% endblock %}
 {% block page %}
 
-<h4>Şablon Motorları / Template Engines</h4>
+<h2>Şablon Motorları / Template Engines</h2>
 
-<table>
+<table class="table table-condensed table-bordered table-hover">
   <tr>
     <th>Adı</th>
     <th>Github</th>
@@ -16,17 +15,16 @@
   <tr>
     <td>{{name}}</td>
     <td>
-      <a target="_blank" href="https://github.com/{{engine.github}}">{{engine.github}}</a>
+      <a href="https://github.com/{{engine.github}}">{{engine.github}}</a>
     </td>
     <td>
       {% if engine.url %}
-        <a target="_blank" href="{{engine.url}}">{{engine.url}}</a>
+        <a href="{{engine.url}}">{{engine.url}}</a>
       {% endif %}
     </td>
     <td>{{engine.backedby}}</td>
   </tr>
   {% endfor %}
 </table>
-
 
 {% endblock %}

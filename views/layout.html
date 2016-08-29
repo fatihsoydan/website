@@ -1,49 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<title>node.tr - Node.js İstanbul Topluluğu</title>
-<link rel="shortcut icon" href="/favicon.png">
-<link rel="stylesheet" href="/vendor/material-icons.css">
-<link rel="stylesheet" href="/vendor/material.indigo-pink.min.css" />
-<link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="icon" href="/favicon.ico">-->
+  <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
+  <title>{{ title }} - node.ist</title>
 </head>
 <body>
 
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">{% block title %}{% endblock %}{#node.ist - İstanbul Node.js#}</span>
-      <div class="mdl-layout-spacer"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Menu</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="/nodeist.png"></a>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link {%if page=='nodetr'%}mdl-navigation-selected{%endif%}" href="/">node.ist</a>
-      {#<a class="mdl-navigation__link" href="#">Node.js Nedir?</a>#}
-      <a class="mdl-navigation__link {%if page=='bilgiler'%}mdl-navigation-selected{%endif%}" href="/bilgiler">Bilgiler</a>
-      {#<a class="mdl-navigation__link" href="/uyeler">Üyeler</a>#}
-      <a class="mdl-navigation__link {%if page=='kitaplar'%}mdl-navigation-selected{%endif%}" href="/kitaplar">Kitaplar</a>
-      <a class="mdl-navigation__link {%if page=='ilanlar'%}mdl-navigation-selected{%endif%}" href="/ilanlar">İş ilanları</a>
-      {#<a class="mdl-navigation__link" href="#">Bloglar</a>#}
-      <a class="mdl-navigation__link {%if page=='organizasyonlar'%}mdl-navigation-selected{%endif%}" href="/organizasyonlar">Organizasyonlar</a>
-      <a class="mdl-navigation__link {%if page=='usedby'%}mdl-navigation-selected{%endif%}" href="/kullanan-sirketler">Kullanan Şirketler</a>
-      <a class="mdl-navigation__link {%if page=='iletisim'%}mdl-navigation-selected{%endif%}" href="/iletisim">İletişim</a>
-    </nav>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="{%if page=='nodetr'%}active{%endif%}"><a href="/">node.ist</a></li>
+        <li class="{%if page=='bilgiler'%}active{%endif%}"><a href="/bilgiler">Bilgiler</a></li>
+        <li class="{%if page=='gelistiriciler'%}active{%endif%}"><a href="/gelistiriciler">Geliştiriciler</a></li>
+        <li class="{%if page=='kitaplar'%}active{%endif%}"><a href="/kitaplar">Kitaplar</a></li>
+        <li class="{%if page=='ilanlar'%}active{%endif%}"><a href="/ilanlar">İş ilanları</a></li>
+        <li class="{%if page=='organizasyonlar'%}active{%endif%}"><a href="/organizasyonlar">Organizasyonlar</a></li>
+        <li class="{%if page=='usedby'%}active{%endif%}"><a href="/kullanan-sirketler">Kullanan Şirketler</a></li>
+        <li class="{%if page=='iletisim'%}active{%endif%}"><a href="/iletisim">İletişim</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
   </div>
-  <main class="mdl-layout__content">
-    <!--<div class="mdl-grid">-->
-    
-        {% block page %}{% endblock %}
-      
-    <!--</div>-->
-  </main>
+</nav>
+
+<div class="container">
+  <h1>{{ title }}</h1>
+  {% block page %}{% endblock %}
 </div>
 
-<script src="/vendor/material.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

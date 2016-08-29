@@ -1,50 +1,51 @@
 {% extends "./layout.html" %}
 
-{% block title %}İstanbul Node.js iş ilanları{% endblock %}
-
 {% block page %}
 
 <p>Aşağıdaki içinde `node.js` kelimesi geçen ve İstanbul'da olan iş ilanları bulunmaktadır.</p>
-<p>Bu ilanlar
-<a target="_blank" href="https://www.crossover.com/x/marketplace/available-jobs?title=node">Crossover</a>, 
-<a target="_blank" href="http://tr.indeed.com/nodejs-jobs-in-Istanbul">Indeed</a>
-(<a target="_blank" href="http://tr.indeed.com/node.js-jobs-in-Istanbul">2</a>), 
-<a target="_blank" href="http://www.kariyer.net/is-ilanlari/#&ct=c34,c82&kw=node">Kariyer.net</a>, 
-<a target="_blank" href="https://www.linkedin.com/jobs/search?keywords=Node.js%20OR%20Nodejs%20OR%20Node&location=Istanbul%2C%20Turkey">LinkedIn</a>, 
-<a target="_blank" href="http://www.yenibiris.com/is-ilanlari?q=node">Yenibiriş</a>
-adreslerinden alınmaktadır.</p>
 
-<p>İlan eklemek için lütfen <a target="_blank" href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a>
+<p>
+  Bu ilanlar
+  <a href="https://www.crossover.com/x/marketplace/available-jobs?title=node">Crossover</a>, 
+  <a href="http://tr.indeed.com/nodejs-jobs-in-Istanbul">Indeed</a>
+  (<a href="http://tr.indeed.com/node.js-jobs-in-Istanbul">2</a>), 
+  <a href="http://www.kariyer.net/is-ilanlari/#&ct=c34,c82&kw=node">Kariyer.net</a>, 
+  <a href="https://www.linkedin.com/jobs/search?keywords=Node.js%20OR%20Nodejs%20OR%20Node&location=Istanbul%2C%20Turkey">LinkedIn</a>, 
+  <a href="http://www.yenibiris.com/is-ilanlari?q=node">Yenibiriş</a>
+adreslerinden alınmaktadır.
+</p>
 
-<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+<p>İlan eklemek için lütfen <a href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a>
+
+<table class="table table-bordered table-condensed table-hover">
   <thead>
     <tr>
-      <th class="mdl-data-table__cell--non-numeric">Firma</th>
-      <th class="mdl-data-table__cell--non-numeric">Pozisyon</th>
-      <th class="mdl-data-table__cell--non-numeric">Link</th>
+      <th>Firma</th>
+      <th>Pozisyon</th>
+      <th>Link</th>
     </tr>
   </thead>
   <tbody id="listBody">
     {% for job in jobs -%}
     <tr>
-      <td class="mdl-data-table__cell--non-numeric">
+      <td>
         {% if job.employerurl %}
-        <a target="_blank" href="{{job.employerurl}}">{{job.employer}}</a>
+        <a href="{{job.employerurl}}">{{job.employer}}</a>
         {% else %}
         {{job.employer}}
         {% endif %}
       </td>
-      <td class="mdl-data-table__cell--non-numeric">
+      <td>
         {% if job.url %}
-          <a target="_blank" href="{{job.url}}">{{job.title}}</a>
+          <a href="{{job.url}}">{{job.title}}</a>
         {% else %}
           {{job.title}}
         {% endif %}
       </td>
-      <td class="mdl-data-table__cell--non-numeric">
+      <td>
         {% if job.urls %}
           {% for source, url in job.urls -%}
-            <a target="_blank" href="{{url}}">{{source}}</a>&nbsp; 
+            <a href="{{url}}">{{source}}</a>&nbsp; 
           {%- endfor %} 
         {% endif %}
       </td>

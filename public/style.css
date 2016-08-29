@@ -1,12 +1,45 @@
-.mdl-layout__content {
-  padding: 10px 20px;
+/* layout */
+body {
+  padding-top: 60px;
 }
-.mdl-navigation-selected {
-  background-color: #dedede;
+.navbar-brand img {
+  height: 200%;
+}
+.navbar-nav li.active a {
   font-weight: bold;
+}
+
+/* global */
+h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 20px;
+}
+table.table {
+  width: auto;
+}
+table.table td {
+  vertical-align: middle !important;
 }
 
 /* usedby */
 img.compimg {
-  width: 100px; padding: 5px 20px;
+  width: 150px; padding: 5px 20px;
+}
+
+/* books */
+div.book {
+  float: left;
+  padding: 10px;
+}
+div.book img {
+  max-height: 150px;
+}
+
+/* organizations */
+img.orgLogo {
+  height: 100px;
+  width: 100px;
 }

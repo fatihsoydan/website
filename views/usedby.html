@@ -1,13 +1,13 @@
 {% extends "./layout.html" %}
 
-{% block title %}Node.js kullanan şirketler{% endblock %}
 {% block page %}
 
 <p>Türkiye'de ve dünyada ana yazılımlarında Node.js kullanan şirketler aşağıda belirtilmiştir.</p>
-<p>Buraya şirket eklemek için lütfen <a target="_blank" href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a></p>
+
+<p>Buraya şirket eklemek için lütfen <a href="https://github.com/nodeist/website">GitHub</a> deposuna Pull Request yapın ya da <a href="mailto:hey@node.ist">hey@node.ist</a> adresine e-posta gönderin.</a></p>
 
 {% for usedby in usedbys -%}
-<a target="_blank" href="{{usedby.url}}">
+<a href="{{usedby.url}}">
   <img class="compimg" alt="{{usedby.name}}" title="{{usedby.name}}" src="{{usedby.image}}">
 </a>
 {%- endfor %}
