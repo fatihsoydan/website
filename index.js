@@ -21,7 +21,10 @@ app.get('/bilgiler', (req, res) => res.render('views/bilgiler.html', {
   page:"bilgiler",
   templateengines: require('./data/templateengines.json')
 }))
-
+app.get('/gelistiriciler', (req, res) => res.render('views/gelistiriciler.html', {
+  page:"gelistiriciler",
+  developers: require('./data/developers.json')
+}))
 app.get('/ilanlar', (req, res) => res.render('views/ilanlar.html', {
   page:"ilanlar",
   jobs: require('./data/jobs.json')

@@ -1,0 +1,47 @@
+{% extends "./layout.html" %}
+
+{% block title %}İstanbul ve Türkiye'deki Node.js geliştiricileri{% endblock %}
+{% block page %}
+
+<table class="table table-bordered table-striped table-condensed table-responsive">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Adı</th>
+      <th>NPM paketi</th>
+      <th>Github</th>
+      <th>Twitter</th>
+      <th>Blog/Url</th>
+      <th>Şirket adı</th>
+      <th>İş arıyor mu?</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for developer in developers %}
+  <tr>
+    <td>{% if developer.image %}<img src="{{developer.image}}" />{% endif %}</td>
+    <td>
+      {% if developer.npm -%}
+        <a href="https://npmjs.org/~{{developer.npm}}">{{developer.name}}</a>
+      {%- else -%}
+        {{developer.name}}
+      {%- endif %}
+    </td>
+    <td>{{ developer.npmcount }}</td>
+    <td><a href="https://github.com/{{developer.github}}">{{developer.github}}</a></td>
+    <td>
+      {% if developer.twitter -%}
+        <a href="https://twitter.com/{{developer.twitter}}">{{developer.twitter}}</a>
+      {%- endif %}
+    </td>
+    <td>
+      {% if developer.url %}<a href="{{developer.url}}">{{developer.url}}</a>{%endif%}
+    </td>
+    <td>{{developer.company}}</td>
+    <td>{% if developer.hireable %}Evet{%endif%}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

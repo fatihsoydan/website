@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Yasin Aydın",
+    "npm": "yasinaydin",
+    "npmcount": 8,
+    "github": "yasinaydin",
+    "image": "https://avatars3.githubusercontent.com/u/1379677?v=3&s=45",
+    "twitter": false,
+    "url": "https://yasinaydin.net",
+    "company": "Solvoyo",
+    "hireable": false
+  },
+  {
+    "name": "Bahadır Gököz",
+    "npm": "bhdrgkz",
+    "npmcount": 3,
+    "github": "bhdrgkz",
+    "image": "https://avatars3.githubusercontent.com/u/883726?v=3&s=45",
+    "twitter": "bhdrgkz",
+    "url": "http://bhdrgkz.com/",
+    "company": "Zingat",
+    "hireable": false
+  },
+  {
+    "name": "İlhan Çetin",
+    "npm": "ilhnctn",
+    "npmcount": 0,
+    "github": "ilhnctn",
+    "image": "https://avatars3.githubusercontent.com/u/1893290?v=3&s=45",
+    "twitter": "ilhnctn",
+    "url": false,
+    "company": "Zingat",
+    "hireable": false
+  },
+  {
+    "name": "Doğan Öztürk",
+    "npm": false,
+    "npmcount": "",
+    "github": "doganozturk",
+    "image": "https://avatars2.githubusercontent.com/u/12007317?v=3&s=45",
+    "twitter": false,
+    "url": false,
+    "company": "Zingat",
+    "hireable": false
+  },
+  {
+    "name": "İlkay Narlı",
+    "npm": false,
+    "npmcount": "",
+    "github": "inarli",
+    "image": "https://avatars0.githubusercontent.com/u/1387333?v=3&s=45",
+    "twitter": "inarli",
+    "url": false,
+    "company": "Zingat",
+    "hireable": false
+  }
+]
