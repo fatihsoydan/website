@@ -12,7 +12,6 @@
       <th>Twitter</th>
       <th>Blog/Url</th>
       <th>Şirket adı</th>
-      <th>İş arıyor mu?</th>
     </tr>
   </thead>
   <tbody>
@@ -37,7 +36,6 @@
       {% if developer.url %}<a href="{{developer.url}}">{{developer.url}}</a>{%endif%}
     </td>
     <td>{{developer.company}}</td>
-    <td>{% if developer.hireable %}Evet{%endif%}</td>
   </tr>
   {% endfor %}
   </tbody>
