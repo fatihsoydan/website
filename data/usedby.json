@@ -15,6 +15,16 @@
     "image": "http://www.kapgel.com/wp-content/uploads/2015/10/kapgel1.png"
   },
   {
+    "name": "onedio",
+    "url": "https://onedio.com/",
+    "image": "https://onedio.com/images/logo/onedio-new2x.png"
+  },
+  {
+    "name": "Smartface",
+    "url": "https://www.smartface.io/",
+    "image": "http://www.smartfaceturkiye.org/wp-content/uploads/2014/10/logo-300x137.png"
+  },
+  {
     "name": "techbase",
     "url": "http://techbase.com.tr/",
     "image": "http://techbase.com.tr/content/images/logo.png"
