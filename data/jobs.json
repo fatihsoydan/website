@@ -287,6 +287,11 @@
     "employer": "Solosis Görsel Bilgilendirme Proje ve Danışmanlık"
   },
   {
+    "employer": "Talented Square Corporation",
+    "title": "Javascript Developer (React+Redux)",
+    "url": "https://www.linkedin.com/jobs2/view/199896784"
+  },
+  {
     "url": "http://www.kariyer.net/is-ilani/tatilbudur-com-kidemli-php-gelistirici-1588959",
     "title": "Kıdemli PHP Geliştirici",
     "employer": "TatilBudur.Com"
@@ -315,9 +320,14 @@
     "url": "http://www.kariyer.net/is-ilani/turkuvaz-medya-grubu-yazilim-gelistirme-uzmani-1488795"
   },
   {
-    "url": "http://www.kariyer.net/is-ilani/uyumsoft-a-s-yazilim-gelistirme-uzmani-1635885",
+    "employer": "VEESE A.Ş.",
+    "title": "Azure Developer, C#",
+    "url": "http://tr.indeed.com/viewjob?jk=78399b0f69914a7c"
+  },
+  {
+    "employer": "Uyumsoft A.Ş.",
     "title": "Yazılım Geliştirme Uzmanı",
-    "employer": "Uyumsoft A.Ş."
+    "url": "http://www.kariyer.net/is-ilani/uyumsoft-a-s-yazilim-gelistirme-uzmani-1635885"
   },
   {
     "url": "http://www.kariyer.net/is-ilani/yceo-muhendislik-san-tic-as-yazilim-elemani-1607744",
