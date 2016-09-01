@@ -291,5 +291,11 @@
     "github": "facet/platform",
     "url": "https://facet.github.io/platform/",
     "purposes": "API"
+  },
+  "cotejs": {
+    "npm": "cote",
+    "github": "dashersw/cote",
+    "url": "http://cote.js.org/",
+    "purposes": "Cote is an auto-discovery mesh network framework for building fault-tolerant and scalable applications."
   }
 }
