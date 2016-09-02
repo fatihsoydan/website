@@ -141,6 +141,11 @@
     "url": "http://www.kariyer.net/is-ilani/general-electric-senior-software-engineer-1596306"
   },
   {
+    "employer": "General Electric",
+    "title": "Software Engineer",
+    "url": "http://www.kariyer.net/is-ilani/general-electric-software-engineer-1641155"
+  },
+  {
     "url": "http://www.kariyer.net/is-ilani/isc-international-solutions-consulting-ltd-big-data-developer-1608632",
     "title": "BIG DATA DEVELOPER",
     "employer": "ISC - International Solutions Consulting Ltd."
@@ -333,5 +338,20 @@
     "url": "http://www.kariyer.net/is-ilani/yceo-muhendislik-san-tic-as-yazilim-elemani-1607744",
     "title": "Yazılım Elemanı",
     "employer": "Yceo Mühendislik San. Tic. AŞ."
+  },
+  {
+    "employer": "Yemeksepeti.com",
+    "title": "PHP Yazılım Geliştirme Uzmanı",
+    "url": "http://www.kariyer.net/is-ilani/yemeksepeti-com-php-yazilim-gelistirme-uzmani-1637743"
+  },
+  {
+    "employer": "YNK MEDYA",
+    "title": "Senior Back-end Developer",
+    "url": "http://www.yenibiris.com/ynk-medya/senior-back-end-developer-is-ilani/707550"
+  },
+  {
+    "employer": "YNK MEDYA",
+    "title": "Senior Front-end Developer",
+    "url": "http://www.yenibiris.com/ynk-medya/senior-front-end-developer-is-ilani/707540"
   }
 ]
