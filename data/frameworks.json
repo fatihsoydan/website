@@ -28,7 +28,7 @@
     "github": "hapijs/hapi",
     "url": "http://hapijs.com/",
     "purposes": "API, Web",
-    "backedBy": "Wal-Mart"
+    "backedby": "Wal-Mart"
   },
   "koa": {
     "npm": "koa",
@@ -49,9 +49,6 @@
     "purposes": "API",
     "backedby": "IBM, StrongLoop"
   },
-
-  
-  
   "Frisby": {
     "npm": "frisby",
     "github": "vlucas/frisby",
