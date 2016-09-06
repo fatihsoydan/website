@@ -27,7 +27,8 @@
     "npm": "hapi",
     "github": "hapijs/hapi",
     "url": "http://hapijs.com/",
-    "purposes": "API, Web"
+    "purposes": "API, Web",
+    "backedBy": "Wal-Mart"
   },
   "koa": {
     "npm": "koa",
