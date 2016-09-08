@@ -46,7 +46,7 @@ app.get('/docs/nodejs-template-engines', (req, res) => res.render('views/docs/te
 }))
 
 app.get('/gelistiriciler', (req, res) => res.render('views/gelistiriciler.html', {
-  title: 'İstanbul ve Türkiye\'deki Node.js geliştiricileri',
+  title: "İstanbul ve Türkiye'deki Node.js geliştiricileri",
   page: 'gelistiriciler',
   developers: require('./data/developers.json')
 }))
@@ -54,6 +54,8 @@ app.get('/gelistiriciler', (req, res) => res.render('views/gelistiriciler.html',
 app.get('/ilanlar', (req, res) => res.render('views/ilanlar.html', {
   title: 'İstanbul Node.js iş ilanları',
   page: 'ilanlar',
+  dataUrl: 'https://github.com/nodeist/website/blob/master/data/jobs.json',
+  editDataText: 'İlan Ekle/Düzenle',
   jobs: require('./data/jobs.json')
 }))
 
@@ -69,13 +71,13 @@ app.get('/kitaplar', (req, res) => res.render('views/kitaplar.html', {
 }))
 
 app.get('/organizasyonlar', (req, res) => res.render('views/organizasyonlar.html', {
-  title: 'Türkiye\'deki Node.js organizasyonları',
+  title: "Türkiye'deki Node.js organizasyonları",
   page: 'organizasyonlar'
 }))
 
 app.get('/kullanan-sirketler', (req, res) => res.render('views/usedby.html', {
   title: 'Node.js kullanan şirketler',
-  page:'usedby',
+  page: 'usedby',
   usedbys: require('./data/usedby.json')
 }))
 
