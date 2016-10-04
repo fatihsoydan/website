@@ -50,6 +50,11 @@
   "Markup.js": {
     "github": "adammark/Markup.js"
   },
+  "Marko": {
+    "github": "https://github.com/marko-js/marko",
+    "url": "http://markojs.com/",
+    "backedby": "eBay"
+  },
   "Mu / mustache": {
     "github": "janl/mustache.js",
     "url": "https://mustache.github.io/"
