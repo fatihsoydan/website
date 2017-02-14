@@ -158,7 +158,10 @@
   {
     "employer": "emlakjet",
     "title": "Fullstack Node.js / Javascript Developer",
-    "url": "http://www.kariyer.net/is-ilani/emlakjet-fullstack-node-js-javascript-developer-1707920"
+    "urls": {
+      "Kariyer.net": "http://www.kariyer.net/is-ilani/emlakjet-fullstack-node-js-javascript-developer-1707920",
+      "LinkedIn": "https://www.linkedin.com/jobs/view/239111012"
+    }
   },
   {
     "url": "http://www.kariyer.net/is-ilani/erlab-teknoloji-a-s-front-end-web-developer-1604145",
