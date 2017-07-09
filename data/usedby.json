@@ -3,6 +3,12 @@
     "name": "BiTaksi",
     "url": "http://www.bitaksi.com/",
     "image": "http://www.bitaksi.com/wp-content/themes/BiTaksi/img/logo.png"
+  }
+  ,
+  {
+    "name": "Buluthan",
+    "url": "http://www.buluthan.com/",
+    "image": "http://www.buluthan.com/images/logo.png"
   },
   {
     "name": "Getir",
@@ -33,6 +39,11 @@
     "name": "techbase",
     "url": "http://techbase.com.tr/",
     "image": "http://techbase.com.tr/content/images/logo.png"
+  },
+  {
+    "name": "Usishi",
+    "url": "http://www.usishi.com/",
+    "image": "http://www.usishi.com/static/img/logo.png"
   },
   {
     "name": "Zingat",
